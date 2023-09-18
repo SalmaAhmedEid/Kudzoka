@@ -1,0 +1,363 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px 0px;
+}
+
+nav img {
+    width: 130px;
+}
+
+.firstdiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.item {
+    text-decoration: none;
+    padding: 0 12px;
+    font-size: 18px;
+    color: black;
+}
+
+.item:hover {
+    text-decoration: underline;
+    color: #b219db;
+    transition: 0.1s;
+}
+
+.seconddiv img {
+    width: 120px;
+    height: 50px;
+}
+
+nav .seconddiv span {
+    position: absolute;
+    left: 86.5%;
+    bottom: 30.5%;
+    font-size: 20px;
+    color: #333;
+}
+
+.secone {
+    position: relative;
+}
+
+.secBackground {
+    position: absolute;
+    width: 100%;
+    z-index: -1000;
+}
+
+.divthree {
+    display: block;
+    justify-content: space-between;
+    padding: 130px 134px;
+    position: relative;
+}
+
+.divthree h1 {
+    font-size: 55px;
+    color: #637279;
+}
+
+.divthree span {
+    color: #7a3d8a;
+}
+
+.divthree p {
+    color: #afafaf;
+    font-size: 28px;
+}
+
+.imgone {
+    position: absolute;
+    width: 45%;
+    top: 10%;
+    right: 1%;
+}
+
+.imgtwo {
+    position: absolute;
+    width: 20%;
+    top: 10%;
+    right: 15%;
+}
+
+.imgthree {
+    position: absolute;
+    width: 27%;
+    top: 68%;
+    right: 10%;
+}
+
+.imgfour {
+    position: absolute;
+    width: 85%;
+    height: 40%;
+    top:80% ;
+    left: -9%;
+}
+
+/*end sevtion one*/
+
+/* second section */
+
+.sectwo {
+    width: 500px;
+}
+
+.backgroundsectwo {
+    position: absolute;
+    width: 65%;
+    top: 800px;
+    left: 22%;
+    height: 70%;
+}
+
+.middlecontentone {
+    position: absolute;
+    top: 865px;
+    left: 13.5%;
+}
+
+.middlecontentone img {
+    width: 250px;
+}
+
+.middlecontentone h2 {
+    color: #999;
+    font-size: 25px;
+}
+
+.middlecontentone p {
+    color: #b9b9b9;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    right: 80px;
+}
+
+.middlecontenttwo {
+    position: absolute;
+    left: 45%;
+    top: 990px;
+}
+
+.middlecontenttwo img {
+    width: 250px;
+}
+
+.middlecontenttwo h2 {
+    color: #999;
+    font-size: 25px;
+}
+
+.middlecontenttwo p {
+    color: #b9b9b9;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    right: 90PX;
+}
+
+.middlecontentthree {
+    position: absolute;
+    left: 70%;
+    top: 1225px;
+}
+
+.middlecontentthree img {
+    width: 250px;
+}
+
+.middlecontentthree h2 {
+    color: #999;
+    font-size: 25px;
+    margin: 0 80PX;
+}
+
+.middlecontentthree p {
+    color: #b9b9b9;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    right: 70PX;
+}
+
+.whykudzoka img {
+    width: 350PX;
+    position: absolute;
+    top: 1300PX;
+    left: 100PX;
+}
+
+.whykudzoka p {
+    font-size: 25px;
+    position: absolute;
+    top: 1400PX;
+    left: 190PX;
+    color: white;
+}
+
+.whykudzoka h3 {
+    font-size: 40px;
+    font-weight: 1000;
+    position: absolute;
+    top: 1425PX;
+    left: 190PX;
+    color: white;
+}
+
+/* end second section */
+
+/* third section */
+
+.secthree {
+ position: absolute;
+ top: 1650px;
+ right: 100px;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+}
+
+.differentdiv h3 {
+    color: #999;
+    font-size: 25px;
+    text-align: center;
+}
+
+.differentdiv p {
+    color: #b9b9b9;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/*  end third section */
+
+/* footer */
+
+footer {
+    position: relative;
+    margin-top: 120%;
+    height: 75vh;
+    overflow: hidden;
+}
+
+.backgroundfooter{
+    position: absolute;
+    width: 110%;
+    height: 150%;
+    left: -3%;
+}
+
+.photo {
+    position: absolute;
+    width: 600px;
+    top: 18%;
+    right: 10%;
+}
+
+.backgroundimage {
+    position: absolute;
+    top: 350px;
+    left: 100px;
+    width: 150px;
+    height: 60px; 
+    border-radius: 5%;
+}
+
+.store-one img {
+    position: absolute;
+    top: 365px;
+    left: 115px;
+}
+
+.store-one p {
+    position: absolute;
+    top: 360px;
+    left: 150px;
+    color: black;
+}
+
+.store-one span {
+    color: #7a3d8a;
+}
+
+.contact {
+    display: flex;
+}
+
+.backgroundrepeat {
+    position: absolute;
+    top: 350px;
+    left: 270px;
+    width: 150px;
+    height: 60px; 
+    border-radius: 5%;
+}
+
+.store-two img {
+    position: absolute;
+    top: 365px;
+    left: 285px;
+}
+
+.store-two p {
+    position: absolute;
+    top: 360px;
+    left: 320px;
+    color: black;
+}
+
+.store-two span {
+    color: #7a3d8a;
+}
+
+.social-media-icon {
+    width: 100px;
+    position: absolute;
+    top: 420px;
+    left: 120px;  
+}
+
+.final-section ul {
+    display: flex;
+    list-style: none;
+    position: absolute;
+    top: 460px;
+    left: 110px; 
+}
+
+.final-section ul li a {
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+/*end footer */
+
+
+
+    
+
